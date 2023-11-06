@@ -10,6 +10,7 @@ Para rodar este projeto, você precisará do seguinte instalado:
 
 - Docker (para execução via Docker)
 - Node.js v18.x.x (para execução sem Docker)
+- você precisará iniciar antes a api que está na pasta BACKEND
 
 ## Rodando com Docker
 
