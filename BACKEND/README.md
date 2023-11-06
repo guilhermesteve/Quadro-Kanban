@@ -18,8 +18,8 @@ Para iniciar o projeto com Docker, você precisará ter o Docker instalado em su
 1. Clone o repositório para a sua máquina local:
 
 ```bash
-git clone [url-do-repositório]
-cd api-kanban
+git clone https://github.com/guilhermesteve/Quadro-Kanban.git
+cd  Quadro-Kanban/BACKEND
 ```
 
 2. Construa e execute o container usando docker-compose:
@@ -64,8 +64,6 @@ Essa Api utiliza Jwt Token que deverá ser passado em todas as rotas como *Beare
 { "login":"admin", "password":"admin123"}
 ```
 
-
-
 ## API Endpoints
 
 (GET)       http://0.0.0.0:5001/api/task
@@ -75,7 +73,7 @@ Essa Api utiliza Jwt Token que deverá ser passado em todas as rotas como *Beare
 
 
 ### Consulte o arquivo api.http
-Nesse arquivo você encontra como realizar as requisições para os endpoints
+Nesse arquivo **api.http** você encontra como realizar as requisições para os endpoints
 
 ## Autores
 **Guilherme Soares** - *Desenvolvimento Inicial* - [github](https://github.com/guilhermesteve)
