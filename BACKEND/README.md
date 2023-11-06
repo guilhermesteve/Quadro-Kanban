@@ -40,7 +40,7 @@ npm install
 
 2. Inicie o projeto:
 ```bash
-npm start
+npm run dev
 ```
 O aplicativo agora estará rodando na porta 5001.
 
