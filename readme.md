@@ -3,7 +3,7 @@
 os projetos front-end e back-ends estão em suas respectivas pastas.
 
 ## Rotas 
- Eu optei por mudar os nome do endpoint, mas se for considerado fora do requisito posso alterar sem problemas, foi masi por uma questão de manter a coesão no projeto.
+ Eu optei por mudar os nome do endpoint, mas se for considerado fora do requisito posso alterar sem problemas, foi mais por uma questão de manter a coesão no projeto.
 
 
 ## Requisitos
@@ -19,7 +19,7 @@ Para iniciar o projeto com Docker, você precisará ter o Docker instalado em su
 git clone https://github.com/guilhermesteve/Quadro-Kanban.git
 cd  Quadro-Kanban
 ```
-◊
+
 2. Construa e execute o container usando docker-compose:
 ```bash
 docker-compose up -d  
@@ -28,7 +28,7 @@ O aplicativo agora estará rodando na porta 3000 e pode ser acessado através do
 
 ## Informações 
 
-Este é o README para o projeto principal. Para mais informações sobre os componentes individuais, consulte os READMEs específicos:
+Este é o README para o projeto principal. Para mais informações sobre os componentes individuais, consulte o README específico:
 
 - [Frontend README](./FRONTEND/README.md)
 - [Backend README](./BACKEND/README.md)
