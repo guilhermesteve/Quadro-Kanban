@@ -1,0 +1,14 @@
+version: '3.8'
+
+services:
+  quadro-kanban:
+    container_name: quadro-kanban
+    image: node:18
+    ports:
+      - "3000:3000"
+    volumes:
+      - .:/app
+    working_dir: /app
+    command: npm start
+    environment:
+      - NODE_ENV=development

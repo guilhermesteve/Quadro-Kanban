@@ -1,0 +1,54 @@
+@baseUrl = http://localhost:5001
+@authToken = {{login_api.response.body.token}}
+@lastTask = {{create_task.response.body.id}}
+
+# @name login_api
+POST {{baseUrl}}/api/login
+Content-Type: application/json
+
+{
+  "login": "admin",
+  "password": "admin123"
+}
+
+###
+
+# @name get_tasks
+GET  {{baseUrl}}/api/task
+Content-Type: application/json
+Authorization: Bearer {{authToken}}
+
+###
+
+# @name create_task
+POST {{baseUrl}}/api/task
+Content-Type: application/json
+Authorization: Bearer {{authToken}}
+
+{
+    "title" : "tarefa 9", 
+    "content": "conteudo 9", 
+    "list": "Done"
+}
+
+###
+
+# @name update_task
+PUT {{baseUrl}}/api/task/{{lastTask}}
+Content-Type: application/json
+Authorization: Bearer {{authToken}}
+
+ {
+    "title": "amanda tem que dormir ",
+    "content": "dormir cedo e acordar cedo",
+    "list": "ToDo"
+  }
+
+###
+
+# @name delete_task
+Delete {{baseUrl}}/api/task/{{lastTask}}
+Content-Type: application/json
+Authorization: Bearer {{authToken}}
+
+
