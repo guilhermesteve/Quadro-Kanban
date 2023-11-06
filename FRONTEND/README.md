@@ -18,8 +18,8 @@ Para iniciar o projeto com Docker, você precisará ter o Docker instalado em su
 1. Clone o repositório para a sua máquina local:
 
 ```bash
-git clone [url-do-repositório]
-cd quadro-kanban
+git clone https://github.com/guilhermesteve/Quadro-Kanban.git
+cd  Quadro-Kanban/FRONTEND
 ```
 
 2. Construa e execute o container usando docker-compose:
