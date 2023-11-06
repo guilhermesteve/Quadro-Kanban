@@ -1,5 +1,3 @@
-// src/config/env.ts
-
 import { z } from 'zod'
 import dotenv from 'dotenv'
 dotenv.config()
